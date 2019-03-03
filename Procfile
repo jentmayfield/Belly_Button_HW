@@ -1,1 +1,1 @@
-web: gunicorn belly-buttonhw.app:app
+web: gunicorn belly-buttonhw.app:app --log-file=-
